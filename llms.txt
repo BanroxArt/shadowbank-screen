@@ -1,0 +1,29 @@
+# shadowbank-screen
+
+> Screen wire activity against the findings in FinCEN's November 23, 2026 Financial Trend Analysis on Iranian shadow banking: bank-location routes to the UAE, Hong Kong companies banking in mainland China, UAE free-zone and Marshall Islands or BVI companies at shared addresses, young and opaque companies with no web presence, multimillion wires with no source of funds or outside the line of business, bursts, no operating expenses, and shared counterparties tested against chance with a hypergeometric tail. Clusters flagged parties, estimates activity not yet attributed with chain ladder and Mack (1993) standard errors, and back-tests each check with Wilson intervals. Standard library only; no network calls. Engineering checklist, not legal advice.
+
+Every finding names the FTA page it comes from. Geography alone never puts a wire up for review. Tested on synthetic data only.
+
+Built and maintained by Art Akopian, CEO of Banrox (https://banrox.com).
+
+## Docs
+
+- [README.md](https://github.com/BanroxArt/shadowbank-screen/blob/main/README.md): Why, worked example, dispositions, networks, attribution lag, limits.
+- [docs/codes.md](https://github.com/BanroxArt/shadowbank-screen/blob/main/docs/codes.md): Every finding code, family, severity, trigger and source; default thresholds.
+- [docs/format.md](https://github.com/BanroxArt/shadowbank-screen/blob/main/docs/format.md): Wire, entity, ledger, registry, case and label formats.
+- [docs/sources.md](https://github.com/BanroxArt/shadowbank-screen/blob/main/docs/sources.md): Primary sources and what is this tool's own.
+- [SKILL.md](https://github.com/BanroxArt/shadowbank-screen/blob/main/SKILL.md): Agent skill for running a review.
+
+## Source
+
+- [screen.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/screen.py): Checks and dispositions.
+- [network.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/network.py): Counterparty overlap, hypergeometric test, clusters.
+- [develop.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/develop.py): Triangles, chain ladder, Mack standard errors.
+- [calibrate.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/calibrate.py): Per-code precision and recall, disposition sweep.
+- [normalize.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/normalize.py): Name keys, building keys, purpose categories, free-zone markers.
+- [codes.py](https://github.com/BanroxArt/shadowbank-screen/blob/main/src/shadowbank/codes.py): Code registry and sources.
+
+## Optional
+
+- [examples/](https://github.com/BanroxArt/shadowbank-screen/tree/main/examples): Generator and synthetic data with one planted network.
+- [CHANGELOG](https://github.com/BanroxArt/shadowbank-screen/blob/main/CHANGELOG.md): Notable changes.

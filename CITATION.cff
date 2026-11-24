@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+type: software
+title: shadowbank-screen
+abstract: >-
+  Screens wire activity against the findings in FinCEN's Financial Trend Analysis "Iranian Shadow
+  Banking: Update on Trends in Bank Secrecy Act Data" (November 23, 2026): bank-location routes to
+  the UAE, registration and banking splits, free-zone and Marshall Islands or BVI registration at
+  shared addresses, young and opaque companies with no web presence, multimillion wires without
+  source-of-funds information or outside the line of business, bursts, absent operating expenses
+  and shared counterparties. Clusters flagged parties, estimates activity not yet attributed with
+  chain-ladder development and Mack standard errors, and back-tests each check against recorded
+  outcomes. Engineering checklist, not legal advice.
+authors:
+  - family-names: Akopian
+    given-names: Art
+    affiliation: Banrox Inc.
+    email: opensource@banrox.com
+repository-code: https://github.com/BanroxArt/shadowbank-screen
+license: MIT
+version: 0.1.0
+date-released: 2026-11-24
+keywords:
+  - aml
+  - bsa
+  - fincen
+  - shadow-banking
+  - front-companies
+  - wire-transfers
+  - network-analysis
+  - fraud-prevention

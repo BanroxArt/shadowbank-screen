@@ -1,0 +1,181 @@
+entity_id,name,reg_country,free_zone,address,incorporated,website,owners_disclosed,line_of_business
+OK0000,Ketquazen Metals Ltd,HK,,"301 Ockqua Street, Hong Kong",2000-10-17,ketquazen.example,yes,metals metals
+OK0001,Tusketsen Foods Ltd,AE,,"252 Rhomar Street, Dubai",2025-06-25,tusketsen.example,yes,food foods
+OK0002,Taltalbry Metals Ltd,IN,,"46 Sensen Street, Mumbai",2019-05-23,taltalbry.example,yes,metals metals
+OK0003,Senvartal Petroleum Ltd,TR,,"47 Bryumi Street, Istanbul",2006-07-04,senvartal.example,yes,oil petroleum
+OK0004,Umibrylio Electronics Ltd,HK,,"246 Varqua Street, Hong Kong",2003-12-23,umibrylio.example,yes,technology electronics
+OK0005,Ketzenumi Shipping Ltd,SG,,"118 Ketock Street, Singapore",2016-06-04,ketzenumi.example,yes,shipping shipping
+OK0006,Liobrysen Textiles Ltd,TR,,"206 Zenmar Street, Istanbul",2001-05-01,liobrysen.example,yes,textiles textiles
+OK0007,Varneldor Metals Ltd,DE,,"251 Talmar Street, Hamburg",2002-04-05,varneldor.example,yes,metals metals
+OK0008,Umiockumi Textiles Ltd,DE,,"18 Senrho Street, Hamburg",2003-05-03,umiockumi.example,yes,textiles textiles
+OK0009,Ocklioock Shipping Ltd,TR,,"373 Umitus Street, Istanbul",2014-08-08,ocklioock.example,yes,shipping shipping
+OK0010,Talketmar Electronics Ltd,DE,,"8 Tusvar Street, Hamburg",2004-05-13,talketmar.example,yes,technology electronics
+OK0011,Tusmarqua Foods Ltd,TR,,"385 Liotal Street, Istanbul",2017-05-24,tusmarqua.example,yes,food foods
+OK0012,Rhoumidor Shipping Ltd,SG,,"68 Sentus Street, Singapore",2012-10-24,rhoumidor.example,yes,shipping shipping
+OK0013,Vindorsen Textiles Ltd,IN,,"77 Marbry Street, Mumbai",2004-05-01,vindorsen.example,yes,textiles textiles
+OK0014,Brytusnel Shipping Ltd,AE,,"14 Varumi Street, Dubai",2006-12-17,brytusnel.example,yes,shipping shipping
+OK0015,Senockrho Textiles Ltd,US,,"239 Vindor Street, Houston",2017-05-15,senockrho.example,yes,textiles textiles
+OK0016,Rhoockqua Electronics Ltd,GB,,"18 Marvin Street, London",2019-09-12,rhoockqua.example,yes,technology electronics
+OK0017,Nelockmar Textiles Ltd,AE,,"272 Mardor Street, Dubai",2021-11-23,nelockmar.example,yes,textiles textiles
+OK0018,Vinbrylio Textiles Ltd,SG,,"41 Brysen Street, Singapore",2003-09-25,vinbrylio.example,yes,textiles textiles
+OK0019,Vinlioock Metals Ltd,SG,,"213 Senock Street, Singapore",2000-06-29,vinlioock.example,yes,metals metals
+OK0020,Umiockket Metals Ltd,SG,,"110 Quavar Street, Singapore",2010-07-13,umiockket.example,yes,metals metals
+OK0021,Rhozenvin Electronics Ltd,HK,,"81 Talmar Street, Hong Kong",2021-08-05,rhozenvin.example,yes,technology electronics
+OK0022,Liomarsen Foods Ltd,HK,,"68 Ketlio Street, Hong Kong",2010-10-15,liomarsen.example,yes,food foods
+OK0023,Vinketnel Electronics Ltd,HK,,"95 Ketrho Street, Hong Kong",2006-11-01,vinketnel.example,yes,technology electronics
+OK0024,Tussenrho Foods Ltd,DE,,"33 Varzen Street, Hamburg",2015-07-29,tussenrho.example,yes,food foods
+OK0025,Varnelket Electronics Ltd,DE,,"49 Talrho Street, Hamburg",2025-02-01,varnelket.example,yes,technology electronics
+OK0026,Nelbryrho Foods Ltd,TR,,"219 Kettal Street, Istanbul",2013-02-21,nelbryrho.example,yes,food foods
+OK0027,Sentalnel Electronics Ltd,DE,,"145 Rhosen Street, Hamburg",2003-03-23,sentalnel.example,yes,technology electronics
+OK0028,Zenrhovar Metals Ltd,HK,,"29 Ketvin Street, Hong Kong",2007-06-14,zenrhovar.example,yes,metals metals
+OK0029,Neldortal Shipping Ltd,HK,,"65 Talzen Street, Hong Kong",2025-05-29,neldortal.example,yes,shipping shipping
+OK0030,Quazenqua Electronics Ltd,IN,,"15 Brylio Street, Mumbai",2017-03-13,quazenqua.example,yes,technology electronics
+OK0031,Varvarlio Petroleum Ltd,SG,,"162 Dortus Street, Singapore",2001-05-02,varvarlio.example,yes,oil petroleum
+OK0032,Nelliorho Foods Ltd,SG,,"6 Quaumi Street, Singapore",2008-07-28,nelliorho.example,yes,food foods
+OK0033,Dorbrytal Petroleum Ltd,AE,,"142 Rhomar Street, Dubai",2012-05-20,dorbrytal.example,yes,oil petroleum
+OK0034,Ockockumi Metals Ltd,US,,"322 Zendor Street, Houston",2008-10-23,ockockumi.example,yes,metals metals
+OK0035,Talzennel Shipping Ltd,TR,,"191 Liodor Street, Istanbul",2015-01-27,talzennel.example,yes,shipping shipping
+OK0036,Marsennel Shipping Ltd,HK,,"265 Vinket Street, Hong Kong",2005-03-04,marsennel.example,yes,shipping shipping
+OK0037,Bryrholio Petroleum Ltd,HK,,"340 Marvin Street, Hong Kong",2025-06-01,bryrholio.example,yes,oil petroleum
+OK0038,Sentaldor Metals Ltd,DE,,"383 Varumi Street, Hamburg",2005-05-19,sentaldor.example,yes,metals metals
+OK0039,Vinvarvin Metals Ltd,IN,,"84 Varket Street, Mumbai",2008-09-12,vinvarvin.example,yes,metals metals
+OK0040,Dorquador Metals FZE,AE,,"249 Kettus Street, Dubai",2018-01-17,dorquador.example,yes,metals metals
+OK0041,Senkettal Metals Ltd,IN,,"62 Quatal Street, Mumbai",2001-07-14,senkettal.example,yes,metals metals
+OK0042,Taltustus Foods Ltd,TR,,"399 Senlio Street, Istanbul",2018-11-15,taltustus.example,yes,food foods
+OK0043,Rhozenrho Petroleum Ltd,GB,,"371 Umibry Street, London",2008-05-03,rhozenrho.example,yes,oil petroleum
+OK0044,Marockqua Petroleum Ltd,US,,"180 Zenbry Street, Houston",2007-03-07,marockqua.example,yes,oil petroleum
+OK0045,Ockdorzen Petroleum Ltd,GB,,"61 Rholio Street, London",2010-10-23,ockdorzen.example,yes,oil petroleum
+OK0046,Dorlioqua Metals Ltd,TR,,"288 Ketlio Street, Istanbul",2007-12-07,dorlioqua.example,yes,metals metals
+OK0047,Ockbrybry Foods Ltd,DE,,"169 Zenrho Street, Hamburg",2021-11-03,ockbrybry.example,yes,food foods
+OK0048,Umimarzen Textiles Ltd,HK,,"31 Bryvin Street, Hong Kong",2007-01-07,umimarzen.example,yes,textiles textiles
+OK0049,Liodorrho Metals Ltd,AE,,"244 Umirho Street, Dubai",2004-03-19,liodorrho.example,yes,metals metals
+OK0050,Marocklio Shipping FZE,AE,,"355 Marvar Street, Dubai",2006-03-30,marocklio.example,yes,shipping shipping
+OK0051,Rhoquaock Petroleum Ltd,HK,,"88 Sentus Street, Hong Kong",2013-07-22,rhoquaock.example,yes,oil petroleum
+OK0052,Dorketvar Textiles Ltd,IN,,"23 Vinqua Street, Mumbai",2010-08-30,dorketvar.example,yes,textiles textiles
+OK0053,Rhorhotal Textiles Ltd,TR,,"131 Umirho Street, Istanbul",2008-07-22,rhorhotal.example,yes,textiles textiles
+OK0054,Umidorvar Shipping Ltd,DE,,"130 Ockmar Street, Hamburg",2001-04-02,umidorvar.example,yes,shipping shipping
+OK0055,Brysenmar Metals Ltd,US,,"34 Senumi Street, Houston",2020-05-20,brysenmar.example,yes,metals metals
+OK0056,Rhoumirho Foods Ltd,HK,,"40 Vinlio Street, Hong Kong",2007-07-31,rhoumirho.example,yes,food foods
+OK0057,Ketmarvar Textiles Ltd,IN,,"220 Dormar Street, Mumbai",2002-01-03,ketmarvar.example,yes,textiles textiles
+OK0058,Umidorrho Textiles Ltd,DE,,"201 Mardor Street, Hamburg",2006-07-01,umidorrho.example,yes,textiles textiles
+OK0059,Dordornel Textiles Ltd,SG,,"154 Vindor Street, Singapore",2021-04-07,dordornel.example,yes,textiles textiles
+OK0060,Taldorock Foods Ltd,DE,,"28 Vindor Street, Hamburg",2015-04-07,taldorock.example,yes,food foods
+OK0061,Umivarsen Textiles Ltd,IN,,"278 Tusock Street, Mumbai",2012-11-26,umivarsen.example,yes,textiles textiles
+OK0062,Rhodornel Petroleum Ltd,IN,,"181 Liorho Street, Mumbai",2025-01-25,rhodornel.example,yes,oil petroleum
+OK0063,Martuszen Petroleum Ltd,AE,,"88 Quaqua Street, Dubai",2013-11-13,martuszen.example,yes,oil petroleum
+OK0064,Talvinzen Petroleum Ltd,TR,,"186 Marsen Street, Istanbul",2003-10-31,talvinzen.example,yes,oil petroleum
+OK0065,Umitusmar Foods Ltd,TR,,"41 Talvin Street, Istanbul",2014-01-17,umitusmar.example,yes,food foods
+OK0066,Marzenmar Petroleum Ltd,HK,,"332 Liosen Street, Hong Kong",2025-02-07,marzenmar.example,yes,oil petroleum
+OK0067,Varumiock Electronics Ltd,US,,"250 Dorket Street, Houston",2010-07-25,varumiock.example,yes,technology electronics
+OK0068,Quatalock Foods Ltd,SG,,"304 Nelrho Street, Singapore",2005-11-19,quatalock.example,yes,food foods
+OK0069,Tusockock Textiles Ltd,DE,,"270 Ketlio Street, Hamburg",2007-04-19,tusockock.example,yes,textiles textiles
+OK0070,Tusneltus Shipping Ltd,DE,,"198 Ockumi Street, Hamburg",2002-07-09,tusneltus.example,yes,shipping shipping
+OK0071,Tusvinlio Petroleum FZE,AE,,"384 Tusket Street, Dubai",2021-12-30,tusvinlio.example,yes,oil petroleum
+OK0072,Dorsenumi Textiles Ltd,US,,"240 Quabry Street, Houston",2011-12-16,dorsenumi.example,yes,textiles textiles
+OK0073,Rhozennel Foods Ltd,GB,,"95 Ockmar Street, London",2000-11-17,rhozennel.example,yes,food foods
+OK0074,Umibryumi Foods Ltd,HK,,"112 Brynel Street, Hong Kong",2022-01-30,umibryumi.example,yes,food foods
+OK0075,Senquarho Petroleum Ltd,TR,,"377 Vartal Street, Istanbul",2010-10-28,senquarho.example,yes,oil petroleum
+OK0076,Kettalmar Foods Ltd,SG,,"235 Bryket Street, Singapore",2019-05-29,kettalmar.example,yes,food foods
+OK0077,Bryvarqua Electronics Ltd,HK,,"385 Vinlio Street, Hong Kong",2013-12-29,bryvarqua.example,yes,technology electronics
+OK0078,Liovinnel Shipping Ltd,US,,"324 Ketock Street, Houston",2013-01-04,liovinnel.example,yes,shipping shipping
+OK0079,Ocknelmar Metals Ltd,AE,,"87 Tuslio Street, Dubai",2025-01-24,ocknelmar.example,yes,metals metals
+OK0080,Sennelumi Shipping Ltd,GB,,"359 Vinqua Street, London",2011-03-07,sennelumi.example,yes,shipping shipping
+OK0081,Talquabry Shipping Ltd,TR,,"17 Varzen Street, Istanbul",2001-12-31,talquabry.example,yes,shipping shipping
+OK0082,Tusockvin Foods Ltd,IN,,"287 Marrho Street, Mumbai",2015-02-12,tusockvin.example,yes,food foods
+OK0083,Vinocktus Metals Ltd,IN,,"383 Dorqua Street, Mumbai",2021-12-18,vinocktus.example,yes,metals metals
+OK0084,Dorrhovin Textiles Ltd,TR,,"72 Varbry Street, Istanbul",2000-08-11,dorrhovin.example,yes,textiles textiles
+OK0085,Umizenrho Textiles Ltd,HK,,"350 Varlio Street, Hong Kong",2006-11-05,umizenrho.example,yes,textiles textiles
+OK0086,Bryquasen Shipping Ltd,GB,,"273 Varvar Street, London",2014-10-03,bryquasen.example,yes,shipping shipping
+OK0087,Vinockket Textiles Ltd,US,,"385 Vinumi Street, Houston",2011-12-06,vinockket.example,yes,textiles textiles
+OK0088,Dorvarsen Shipping Ltd,HK,,"130 Varock Street, Hong Kong",2016-03-11,dorvarsen.example,yes,shipping shipping
+OK0089,Bryvarock Petroleum Ltd,DE,,"167 Ocktus Street, Hamburg",2017-05-13,bryvarock.example,yes,oil petroleum
+OK0090,Ockocksen Metals Ltd,IN,,"319 Zenumi Street, Mumbai",2011-07-24,ockocksen.example,yes,metals metals
+OK0091,Vinketvar Metals Ltd,DE,,"358 Senbry Street, Hamburg",2013-08-21,vinketvar.example,yes,metals metals
+OK0092,Rhovinket Textiles Ltd,GB,,"308 Rhobry Street, London",2012-07-03,rhovinket.example,yes,textiles textiles
+OK0093,Senbrylio Foods Ltd,GB,,"232 Quavin Street, London",2007-03-22,senbrylio.example,yes,food foods
+OK0094,Marsenvin Shipping Ltd,DE,,"65 Ockbry Street, Hamburg",2003-07-03,marsenvin.example,yes,shipping shipping
+OK0095,Nelsennel Textiles Ltd,TR,,"212 Quasen Street, Istanbul",2007-09-05,nelsennel.example,yes,textiles textiles
+OK0096,Bryquavar Metals Ltd,US,,"199 Talqua Street, Houston",2003-12-01,bryquavar.example,yes,metals metals
+OK0097,Varketqua Metals Ltd,IN,,"317 Bryumi Street, Mumbai",2013-02-26,varketqua.example,yes,metals metals
+OK0098,Martalvar Electronics Ltd,SG,,"60 Marbry Street, Singapore",2019-01-08,martalvar.example,yes,technology electronics
+OK0099,Talketzen Electronics Ltd,HK,,"2 Kettus Street, Hong Kong",2012-04-09,talketzen.example,yes,technology electronics
+OK0100,Dorockzen Textiles Ltd,US,,"98 Umirho Street, Houston",2018-05-08,dorockzen.example,yes,textiles textiles
+OK0101,Tustalqua Shipping Ltd,SG,,"51 Zendor Street, Singapore",2016-02-11,tustalqua.example,yes,shipping shipping
+OK0102,Ockzentus Shipping Ltd,HK,,"230 Umital Street, Hong Kong",2002-12-30,ockzentus.example,yes,shipping shipping
+OK0103,Zenvinzen Shipping Ltd,HK,,"280 Quazen Street, Hong Kong",2019-09-25,zenvinzen.example,yes,shipping shipping
+OK0104,Vinvardor Metals Ltd,HK,,"223 Ketqua Street, Hong Kong",2009-01-07,vinvardor.example,yes,metals metals
+OK0105,Zentuslio Shipping Ltd,US,,"315 Senqua Street, Houston",2008-06-30,zentuslio.example,yes,shipping shipping
+OK0106,Zenlionel Foods Ltd,SG,,"149 Zenlio Street, Singapore",2011-07-10,zenlionel.example,yes,food foods
+OK0107,Ockvintal Textiles Ltd,GB,,"160 Ketqua Street, London",2008-12-14,ockvintal.example,yes,textiles textiles
+OK0108,Rhorhoket Petroleum Ltd,AE,,"314 Ockbry Street, Dubai",2004-08-08,rhorhoket.example,yes,oil petroleum
+OK0109,Zenockrho Metals Ltd,HK,,"390 Talbry Street, Hong Kong",2005-11-19,zenockrho.example,yes,metals metals
+OK0110,Umivartal Metals Ltd,US,,"309 Varsen Street, Houston",2004-04-09,umivartal.example,yes,metals metals
+OK0111,Liovarmar Shipping FZE,AE,,"118 Vinnel Street, Dubai",2013-01-08,liovarmar.example,yes,shipping shipping
+OK0112,Ockketnel Foods Ltd,US,,"215 Quaket Street, Houston",2009-11-05,ockketnel.example,yes,food foods
+OK0113,Tusbrynel Shipping Ltd,HK,,"288 Varsen Street, Hong Kong",2016-09-02,tusbrynel.example,yes,shipping shipping
+OK0114,Ockmarnel Metals Ltd,IN,,"137 Vinbry Street, Mumbai",2004-03-19,ockmarnel.example,yes,metals metals
+OK0115,Ockzenumi Shipping Ltd,AE,,"148 Ketdor Street, Dubai",2016-03-22,ockzenumi.example,yes,shipping shipping
+OK0116,Lioockdor Petroleum Ltd,IN,,"391 Senvar Street, Mumbai",2013-08-05,lioockdor.example,yes,oil petroleum
+OK0117,Ockbrytus Petroleum Ltd,HK,,"39 Vartal Street, Hong Kong",2006-09-10,ockbrytus.example,yes,oil petroleum
+OK0118,Quamarrho Metals Ltd,HK,,"276 Kettus Street, Hong Kong",2011-04-29,quamarrho.example,yes,metals metals
+OK0119,Taldorvin Electronics Ltd,GB,,"130 Ketbry Street, London",2016-02-06,taldorvin.example,yes,technology electronics
+OK0120,Umitalmar Foods Ltd,DE,,"185 Umitus Street, Hamburg",2014-05-25,umitalmar.example,yes,food foods
+OK0121,Senneltal Foods Ltd,SG,,"243 Nelsen Street, Singapore",2012-08-29,senneltal.example,yes,food foods
+OK0122,Ockbryket Metals Ltd,SG,,"133 Zentus Street, Singapore",2013-06-28,ockbryket.example,yes,metals metals
+OK0123,Sensendor Metals Ltd,TR,,"150 Zentus Street, Istanbul",2020-09-09,sensendor.example,yes,metals metals
+OK0124,Marvarvar Textiles Ltd,GB,,"321 Rhoket Street, London",2008-09-04,marvarvar.example,yes,textiles textiles
+OK0125,Zenrhoqua Electronics Ltd,DE,,"347 Umiumi Street, Hamburg",2020-11-23,zenrhoqua.example,yes,technology electronics
+OK0126,Rhotalmar Shipping Ltd,IN,,"269 Talbry Street, Mumbai",2011-06-03,rhotalmar.example,yes,shipping shipping
+OK0127,Varzenock Textiles Ltd,HK,,"21 Umidor Street, Hong Kong",2020-06-19,varzenock.example,yes,textiles textiles
+OK0128,Kettalket Electronics Ltd,TR,,"217 Quamar Street, Istanbul",2010-12-18,kettalket.example,yes,technology electronics
+OK0129,Ockvarket Petroleum Ltd,DE,,"271 Umital Street, Hamburg",2021-02-02,ockvarket.example,yes,oil petroleum
+OK0130,Dormarsen Electronics Ltd,SG,,"221 Senzen Street, Singapore",2014-10-08,dormarsen.example,yes,technology electronics
+OK0131,Zenmartus Foods Ltd,IN,,"189 Marumi Street, Mumbai",2005-01-10,zenmartus.example,yes,food foods
+OK0132,Quarhotus Metals Ltd,DE,,"96 Tusock Street, Hamburg",2014-02-01,quarhotus.example,yes,metals metals
+OK0133,Quasenzen Petroleum Ltd,SG,,"22 Liosen Street, Singapore",2001-11-20,quasenzen.example,yes,oil petroleum
+OK0134,Nellioock Textiles Ltd,HK,,"35 Bryzen Street, Hong Kong",2007-09-26,nellioock.example,yes,textiles textiles
+OK0135,Tusketlio Electronics Ltd,US,,"268 Dorqua Street, Houston",2017-06-20,tusketlio.example,yes,technology electronics
+OK0136,Rhoqualio Foods Ltd,US,,"88 Lioumi Street, Houston",2025-03-14,rhoqualio.example,yes,food foods
+OK0137,Tusdorlio Electronics Ltd,DE,,"92 Brytus Street, Hamburg",2010-11-12,tusdorlio.example,yes,technology electronics
+OK0138,Varvartus Electronics Ltd,US,,"367 Nelrho Street, Houston",2020-05-11,varvartus.example,yes,technology electronics
+OK0139,Varuminel Shipping Ltd,SG,,"56 Ocknel Street, Singapore",2022-01-08,varuminel.example,yes,shipping shipping
+OK0140,Dorumimar Foods Ltd,GB,,"17 Marnel Street, London",2025-04-26,dorumimar.example,yes,food foods
+OK0141,Umiockket Foods Ltd,DE,,"205 Tusket Street, Hamburg",2003-12-14,umiockket.example,yes,food foods
+OK0142,Quataltus Electronics Ltd,DE,,"126 Quanel Street, Hamburg",2025-01-08,quataltus.example,yes,technology electronics
+OK0143,Varmarvar Metals Ltd,AE,,"101 Ocktus Street, Dubai",2008-12-08,varmarvar.example,yes,metals metals
+OK0144,Ketrhotal Electronics Ltd,IN,,"126 Neltus Street, Mumbai",2014-10-25,ketrhotal.example,yes,technology electronics
+OK0145,Ockneltus Electronics Ltd,SG,,"231 Umivar Street, Singapore",2016-02-05,ockneltus.example,yes,technology electronics
+OK0146,Vinvinmar Electronics Ltd,US,,"98 Marumi Street, Houston",2019-10-14,vinvinmar.example,yes,technology electronics
+OK0147,Ketdorket Petroleum FZE,AE,,"12 Bryumi Street, Dubai",2009-09-18,ketdorket.example,yes,oil petroleum
+OK0148,Liorhonel Metals Ltd,US,,"118 Rhoket Street, Houston",2003-11-02,liorhonel.example,yes,metals metals
+OK0149,Zendorrho Electronics Ltd,IN,,"281 Tusdor Street, Mumbai",2002-01-03,zendorrho.example,yes,technology electronics
+OK0150,Ockvinbry Shipping Ltd,DE,,"384 Zenbry Street, Hamburg",2010-11-25,ockvinbry.example,yes,shipping shipping
+OK0151,Vinvarvin Foods Ltd,SG,,"367 Dorsen Street, Singapore",2022-02-23,vinvarvin.example,yes,food foods
+OK0152,Dorvarsen Textiles Ltd,SG,,"268 Quaock Street, Singapore",2016-09-17,dorvarsen.example,yes,textiles textiles
+OK0153,Ketockvar Textiles FZE,AE,,"62 Ocknel Street, Dubai",2009-06-02,ketockvar.example,yes,textiles textiles
+OK0154,Quadorrho Petroleum Ltd,HK,,"187 Zenmar Street, Hong Kong",2014-10-30,quadorrho.example,yes,oil petroleum
+OK0155,Dorockbry Foods Ltd,TR,,"69 Ketbry Street, Istanbul",2021-05-04,dorockbry.example,yes,food foods
+OK0156,Ketmartal Petroleum Ltd,HK,,"22 Varvin Street, Hong Kong",2004-10-20,ketmartal.example,yes,oil petroleum
+OK0157,Brybryrho Petroleum Ltd,SG,,"65 Umisen Street, Singapore",2013-08-20,brybryrho.example,yes,oil petroleum
+OK0158,Rhoneltus Metals Ltd,IN,,"383 Talket Street, Mumbai",2013-10-12,rhoneltus.example,yes,metals metals
+OK0159,Nelzenmar Textiles Ltd,AE,,"372 Umitus Street, Dubai",2001-01-29,nelzenmar.example,yes,textiles textiles
+HK000,Quataltus Trading Co Ltd,HK,,"Room 1811, Rhotal Commercial Building, Hong Kong",2025-02-18,,no,general trading
+HK001,Zenvarket Trading Co Ltd,HK,,"Room 1430, Liomar Commercial Building, Hong Kong",2025-03-27,,no,general trading
+HK002,Brytusnel Trading Co Ltd,HK,,"Room 896, Vardor Commercial Building, Hong Kong",2025-05-01,,no,general trading
+HK003,Talvarvin Trading Co Ltd,HK,,"Room 545, Talvin Commercial Building, Hong Kong",2025-01-31,,no,general trading
+AE000,Talkettus Petroleum DMCC,AE,DMCC,"Office 1215, Tower 7, Ketvin Lakes Road, Dubai",2025-05-17,,no,oil trading
+AE001,Dorlioket Petroleum DMCC,AE,DMCC,"Office 3408, Tower 7, Ketvin Lakes Road, Dubai",2025-05-11,,no,oil trading
+AE002,Marsenket Petroleum DMCC,AE,DMCC,"Office 2424, Tower 7, Ketvin Lakes Road, Dubai",2025-01-05,,no,oil trading
+AE003,Dormarbry Petroleum DMCC,AE,DMCC,"Office 3120, Tower 7, Ketvin Lakes Road, Dubai",2025-06-12,,no,oil trading
+AE004,Tusquatal Petroleum DMCC,AE,DMCC,"Office 3375, Tower 7, Ketvin Lakes Road, Dubai",2025-02-03,,no,oil trading
+MH000,Ketdorvin Maritime Inc,MH,,"Unit 1, Registry Complex, Lioqua Road, Majuro",2025-03-31,,no,ship owning
+MH001,Brymarumi Maritime Inc,MH,,"Unit 2, Registry Complex, Lioqua Road, Majuro",2025-09-30,,no,ship owning
+MH002,Umibrynel Maritime Inc,MH,,"Unit 3, Registry Complex, Lioqua Road, Majuro",2025-05-29,,no,ship owning
+MH003,Vartalsen Maritime Inc,MH,,"Unit 4, Registry Complex, Lioqua Road, Majuro",2025-03-29,,no,ship owning
+MH004,Bryrhosen Maritime Inc,MH,,"Unit 5, Registry Complex, Lioqua Road, Majuro",2025-12-14,,no,ship owning
+MH005,Liodorock Maritime Inc,MH,,"Unit 6, Registry Complex, Lioqua Road, Majuro",2025-08-09,,no,ship owning
+MH006,Tusvinumi Maritime Inc,MH,,"Unit 7, Registry Complex, Lioqua Road, Majuro",2025-06-08,,no,ship owning
+MH007,Ockbrybry Maritime Inc,MH,,"Unit 8, Registry Complex, Lioqua Road, Majuro",2025-01-21,,no,ship owning
+MH008,Ocktusqua Maritime Inc,MH,,"Unit 9, Registry Complex, Lioqua Road, Majuro",2025-11-10,,no,ship owning
+TW000,Bryneltal Consulting FZE,AE,DMCC,"Office 1494, Tower 7, Ketvin Lakes Road, Dubai",2015-03-01,tenant.example,yes,management consulting
+TW001,Varsenbry Consulting FZE,AE,DMCC,"Office 1593, Tower 7, Ketvin Lakes Road, Dubai",2015-03-01,tenant.example,yes,management consulting
