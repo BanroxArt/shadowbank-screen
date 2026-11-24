@@ -1,6 +1,6 @@
 ---
 name: shadowbank-screen
-description: Screen wire activity against the findings in FinCEN's November 23, 2026 Financial Trend Analysis on Iranian shadow banking with the shadowbank package from this repo. Produces per-wire findings and a review, watch, note or clear disposition, clusters of flagged parties linked by transfers, shared buildings and statistically unusual shared counterparties, a chain-ladder estimate with Mack standard errors of activity not yet attributed, and back-testing against recorded case outcomes. Engineering checklist only, not legal advice; not sanctions screening.
+description: Screen wire activity against the findings in FinCEN's November 23, 2026 Financial Trend Analysis on Iranian shadow banking with the shadowbank package from this repo. Produces per-wire findings and a review, watch, note or clear disposition, clusters of flagged parties linked by transfers, shared buildings and statistically unusual shared counterparties, a chain-ladder estimate of activity not yet attributed (FinCEN cited Friedland's chapter; Mack (1993) standard errors are this tool's choice), and back-testing against recorded case outcomes. Engineering checklist only, not legal advice; not sanctions screening. Tested on synthetic data only.
 ---
 
 # shadowbank-screen
@@ -31,12 +31,14 @@ not a red flag from an advisory. Filing decisions belong to the institution.
 ## Attribution lag
 
 `shadowbank develop cases.csv --period month` gives, per origin month, value attributed so far,
-the estimated ultimate, the difference and its standard error. Explain that it assumes the lag
-pattern has been stable and that the newest months carry the widest error. It is not FinCEN's
-model.
+the estimated ultimate, the difference and its standard error. FinCEN pointed to Friedland's
+chain-ladder chapter for the method; the standard errors use Mack (1993), which is this tool's
+choice, not a citation in the FTA. Explain that it assumes the lag pattern has been stable and
+that the newest months carry the widest error. It is not FinCEN's model.
 
 ## Tuning
 
 Use `shadowbank calibrate wires.csv labels.csv ...` on past cases before changing thresholds.
-Report precision with its interval, not alone. Synthetic data in `examples/` shows mechanics, not
-real-world performance. Never paste customer data into a public issue or a report outside the team.
+Report precision with its interval, not alone. Tested on synthetic data only; the files in
+`examples/` show mechanics, not real-world performance. Never paste customer data into a public
+issue or a report outside the team.

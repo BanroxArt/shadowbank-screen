@@ -22,11 +22,11 @@ spec for a wire monitoring rule set:
   $922 million).
 - Hong Kong-registered companies banking in mainland China originated 73 percent of the Hong
   Kong-originated value.
-- DMCC free-zone companies held about 30 percent of UAE-related funds; seven other free zones
-  about 25 percent.
+- DMCC free-zone companies accounted for about 30 percent of UAE-related funds; seven other free
+  zones about 25 percent.
 - Marshall Islands and BVI companies, "usually at addresses linked to corporate registries".
-- Companies with "little to no web presence", "opaque ownership", "co-located with numerous other
-  companies, or ... recently incorporated".
+- Many of the companies had "little to no web presence", "opaque ownership", were "co-located with
+  numerous other companies", or were "recently incorporated".
 - Multimillion wires over a short timeframe with missing or incomplete source-of-funds
   information, or that did not match the customer's line of business.
 - The same companies "frequently appeared in the same financial networks ... with many of the same
@@ -34,7 +34,9 @@ spec for a wire monitoring rule set:
 - No everyday operating expenses: no salaries or wages, no miscellaneous business costs.
 
 FinCEN also says there is an attribution lag between when a transaction happens and when it gets
-tied to Iran, and it corrects for that with "concepts from actuarial loss development methods".
+tied to Iran, and it estimates the unattributed part with "concepts from actuarial loss development
+methods". Footnote 7 points to Friedland's chapter on the development technique (also called chain
+ladder), not to Mack.
 
 Each of those is a check you can run on data a bank or money transmitter already holds. This
 package runs them, says which passage of the FTA each one comes from, and keeps them apart so an
@@ -99,8 +101,9 @@ the command can gate a batch job.
 Every code belongs to one family: geography (`G`), entity profile (`E`), transaction pattern
 (`T`), network (`N`) or listed bank (`L`). Severity is `info`, `low`, `medium` or `high`.
 
-- `review`: a party banks at an institution named in a section 311 action (today only the
-  proposed Banque Misr UAE rule); or medium findings in two of `E`, `T` and `N`; or findings in
+- `review`: a party banks at an institution named in a proposed section 311 rule (today only the
+  August 28, 2026 proposed rule on Banque Misr UAE, which is not a final action); or medium findings
+  in two of `E`, `T` and `N`; or findings in
   `--min-families` families (default 3) with at least one medium finding outside geography.
 - `watch`: any low-or-higher finding outside geography.
 - `note`: geography only.
@@ -135,8 +138,9 @@ abbreviated, and office, suite, unit and floor numbers dropped, so `Office 1203,
 ## Attribution lag
 
 `shadowbank develop` takes cases with a transaction date, an attribution date and an amount, builds
-a cumulative triangle (origin period by lag), and applies the chain-ladder method with the standard
-errors from Mack (1993). The test suite reproduces Mack's published figures on the Taylor and Ashe
+a cumulative triangle (origin period by lag), and applies the chain-ladder method FinCEN pointed to
+in Friedland. The standard errors are from Mack (1993), which is this tool's choice for error ranges,
+not a method FinCEN cited. The test suite reproduces Mack's published figures on the Taylor and Ashe
 triangle to the dollar: total reserve 18,680,856, standard error 2,447,095.
 
 ```sh
@@ -190,8 +194,8 @@ Checks that need a missing input do not run, and the output says which.
   is not a determination of anything. Whether to file a SAR is a judgment for the institution.
 - This is not sanctions screening. Run OFAC screening separately. For FinCEN special measures by
   name, see [special-measures](https://github.com/BanroxArt/special-measures).
-- The Banque Misr UAE check refers to a proposed rule (91 FR 56085). Check its status before you
-  act on it.
+- The Banque Misr UAE check refers to the August 28, 2026 proposed rule under section 311
+  (91 FR 56085), not a final action. Check its status before you act on it.
 - Line-of-business matching uses a small keyword table. Expect misses on unusual wording, and add
   your own categories in `normalize.py`.
 - Tested on synthetic data only.

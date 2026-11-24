@@ -2,11 +2,16 @@
 
 FinCEN's FTA (p. 7) notes "an attribution lag between the time a transaction occurs and when
 FinCEN or FinCEN sources attribute it to Iran", and estimates the missing part with "concepts from
-actuarial loss development methods". An investigations team has the same problem with its own case
-data: transactions from recent months are under-counted because nobody has linked them yet.
+actuarial loss development methods". Footnote 7 points to Friedland's chapter on the development
+technique, also called chain ladder:
 
-This module applies the chain-ladder method to that problem and gives Mack's (1993) standard
-error for each estimate:
+    Friedland, Estimating Unpaid Claims Using Basic Techniques, Chapter 7, Development Technique.
+    https://www.actexmadriver.com/Assets/ClientDocs/prod_preview/A105RC.pdf
+
+An investigations team has the same problem with its own case data: transactions from recent months
+are under-counted because nobody has linked them yet. This module applies that chain-ladder method
+to the team's own cases. The standard errors are from Mack (1993), which is this tool's choice for
+error ranges, not a method FinCEN cited:
 
     Mack, T. (1993). Distribution-free calculation of the standard error of chain ladder reserve
     estimates. ASTIN Bulletin 23(2), 213-225.

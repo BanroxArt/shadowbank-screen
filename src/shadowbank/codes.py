@@ -6,7 +6,7 @@ Every code names one indicator family:
 - ``E`` entity profile: what the registration and the public footprint look like.
 - ``T`` transaction pattern: what the money does.
 - ``N`` network: who else the party trades with or shares an address with.
-- ``L`` listed: a bank named in a FinCEN section 311 action.
+- ``L`` listed: a bank named in a proposed FinCEN section 311 rule (not a final action).
 
 Severity is one of ``info``, ``low``, ``medium``, ``high``. ``info`` findings are context and never
 move a disposition on their own.
@@ -31,8 +31,8 @@ SOURCES: Final[dict[str, tuple[str, str]]] = {
     "fta-p3": ("FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3", FTA_URL),
     "fta-p4": ("FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 4, Scope and Methodology", FTA_URL),
     "fta-p3-fn2": (
-        "FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 note 2; proposed section 311 rule on"
-        " Banque Misr UAE, 91 FR 56085 (Sep 1, 2026)",
+        "FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 note 2; August 28, 2026 proposed"
+        " section 311 rule on Banque Misr UAE, 91 FR 56085 (Sep 1, 2026), not a final action",
         "https://www.federalregister.gov/d/2026-17871",
     ),
     "own": ("This tool's own check, built on the FTA findings it names; not a FinCEN indicator", ""),
@@ -50,8 +50,8 @@ CODES: Final[dict[str, tuple[Family, Severity, str, str]]] = {
         "G",
         "low",
         "fta-p3",
-        "Bank-location corridor is one FinCEN lists as most common: mainland China, Singapore,"
-        " United Kingdom or an unidentified jurisdiction to the UAE.",
+        "Bank-location corridor is one FinCEN lists as most common, in this order: mainland China,"
+        " Singapore, an unidentified jurisdiction or the United Kingdom to the UAE.",
     ),
     "SB-HUB-REG": (
         "G",
@@ -116,7 +116,7 @@ CODES: Final[dict[str, tuple[Family, Severity, str, str]]] = {
         "T",
         "medium",
         "fta-p3",
-        "Multimillion wire with no usable source-of-funds or purpose text.",
+        "Multimillion wire with missing or incomplete source-of-funds or purpose text.",
     ),
     "SB-LOB-MISMATCH": (
         "T",
@@ -154,7 +154,8 @@ CODES: Final[dict[str, tuple[Family, Severity, str, str]]] = {
         "L",
         "high",
         "fta-p3-fn2",
-        "A party banks at Banque Misr in the UAE, subject of a proposed (not final) section 311 rule.",
+        "A party banks at Banque Misr in the UAE, subject of the August 28, 2026 proposed (not"
+        " final) section 311 rule.",
     ),
     "SB-SCOPE-NOT-EVALUATED": (
         "E",

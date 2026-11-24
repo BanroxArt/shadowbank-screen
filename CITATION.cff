@@ -6,11 +6,13 @@ abstract: >-
   Screens wire activity against the findings in FinCEN's Financial Trend Analysis "Iranian Shadow
   Banking: Update on Trends in Bank Secrecy Act Data" (November 23, 2026): bank-location routes to
   the UAE, registration and banking splits, free-zone and Marshall Islands or BVI registration at
-  shared addresses, young and opaque companies with no web presence, multimillion wires without
-  source-of-funds information or outside the line of business, bursts, absent operating expenses
-  and shared counterparties. Clusters flagged parties, estimates activity not yet attributed with
-  chain-ladder development and Mack standard errors, and back-tests each check against recorded
-  outcomes. Engineering checklist, not legal advice.
+  shared addresses, and, for many companies, little to no web presence, opaque ownership,
+  co-location or recent incorporation; multimillion wires with missing or incomplete
+  source-of-funds information, or a mismatch with the line of business, bursts, absent operating
+  expenses and shared counterparties. Clusters flagged parties, estimates activity not yet
+  attributed with chain-ladder development (FinCEN cited Friedland's chapter; Mack standard errors
+  are this tool's choice), and back-tests each check against recorded outcomes. Engineering
+  checklist, not legal advice. Tested on synthetic data only.
 authors:
   - family-names: Akopian
     given-names: Art

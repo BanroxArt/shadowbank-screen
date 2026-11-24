@@ -381,7 +381,7 @@ def screen(
     for w, fs in zip(wires, per_wire, strict=True):
         for x in fs:
             if x.family in {"T", "L"} and SEVERITY_RANK[x.severity] >= 2:
-                # A wire-level finding (no stated source of funds) is about the sender's money.
+                # A wire-level finding (missing or incomplete source of funds) is about the sender's money.
                 flagged.add(w.beneficiary.entity_id if x.role == "beneficiary" else w.originator.entity_id)
             if x.code == "SB-YOUNG":
                 flagged.add(x.subject)

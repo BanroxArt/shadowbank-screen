@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "shadowbank-screen"
 version = "0.1.0"
-description = "Screen wire activity against the typologies in FinCEN's November 2026 Iranian shadow banking Financial Trend Analysis, cluster the parties into networks, and estimate value not yet attributed with chain-ladder development and Mack standard errors. Engineering checklist, not legal advice."
+description = "Screen wire activity against the findings in FinCEN's November 2026 Iranian shadow banking Financial Trend Analysis, cluster the parties into networks, and estimate value not yet attributed with chain-ladder development. Standard errors use Mack (1993), this tool's choice; FinCEN cited Friedland's chain-ladder chapter. Engineering checklist, not legal advice. Tested on synthetic data only."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Art Akopian", email = "opensource@banrox.com" }]

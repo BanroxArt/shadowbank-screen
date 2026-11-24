@@ -7,7 +7,7 @@ the FinCEN FTA of November 23, 2026. Defaults in backticks are `Config` fields a
 | Code | Family | Severity | Trigger | Source |
 | --- | --- | --- | --- | --- |
 | `SB-SCOPE-VALUE` | T | info | Wire is at or above the $500,000 floor FinCEN used to build its dataset. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 4, Scope and Methodology |
-| `SB-CORRIDOR` | G | low | Bank-location corridor is one FinCEN lists as most common: mainland China, Singapore, United Kingdom or an unidentified jurisdiction to the UAE. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
+| `SB-CORRIDOR` | G | low | Bank-location corridor is one FinCEN lists as most common, in this order: mainland China, Singapore, an unidentified jurisdiction or the United Kingdom to the UAE. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-HUB-REG` | G | info | A party is registered in the UAE, Hong Kong or Singapore. | FinCEN, Financial Trend Analysis, Iranian Shadow Banking: Update on Trends in Bank Secrecy Act Data (Nov 23, 2026), p. 2, Key Updates and Findings |
 | `SB-HUB-BANK` | G | info | A party banks in the UAE, mainland China, Hong Kong, Singapore, the UK or Switzerland. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-REG-BANK-SPLIT` | G | low | A party registered in one hub jurisdiction banks in another, as Hong Kong companies banking in mainland China did for 73 percent of Hong Kong-originated value. | FinCEN, Financial Trend Analysis, Iranian Shadow Banking: Update on Trends in Bank Secrecy Act Data (Nov 23, 2026), p. 2, Key Updates and Findings |
@@ -19,13 +19,13 @@ the FinCEN FTA of November 23, 2026. Defaults in backticks are `Config` fields a
 | `SB-NO-WEB` | E | low | Party has no web presence on record. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-OPAQUE` | E | medium | Beneficial ownership is recorded as not disclosed. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-SECTOR` | E | info | Party is in shipping, oil, trading, investment or technology procurement. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
-| `SB-SOF-MISSING` | T | medium | Multimillion wire with no usable source-of-funds or purpose text. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
+| `SB-SOF-MISSING` | T | medium | Multimillion wire with missing or incomplete source-of-funds or purpose text. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-LOB-MISMATCH` | T | medium | Wire purpose falls in a different business category from the customer's line of business. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-BURST` | T | medium | Party sent or received `burst_count` or more wires of at least `burst_min` within `burst_days` days. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-NO-OPEX` | T | medium | Ledger shows large flows and no payroll, rent, utilities, tax or other operating expense. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-NET-SHARED-CPTY` | N | medium | Party shares `shared_min` or more counterparties with another party that has its own entity or transaction findings. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
 | `SB-NET-SHARED-ADDR` | N | low | Party shares a building with another party that has its own entity or transaction findings. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 |
-| `SB-BANK-311-PROPOSED` | L | high | A party banks at Banque Misr in the UAE, subject of a proposed (not final) section 311 rule. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 note 2; proposed section 311 rule on Banque Misr UAE, 91 FR 56085 (Sep 1, 2026) |
+| `SB-BANK-311-PROPOSED` | L | high | A party banks at Banque Misr in the UAE, subject of the August 28, 2026 proposed (not final) section 311 rule. | FinCEN FTA, Iranian Shadow Banking (Nov 23, 2026), p. 3 note 2; August 28, 2026 proposed section 311 rule on Banque Misr UAE, 91 FR 56085 (Sep 1, 2026), not a final action |
 | `SB-SCOPE-NOT-EVALUATED` | E | info | One or more checks could not run because the input lacks the fields they need. | This tool's own check, built on the FTA findings it names; not a FinCEN indicator |
 
 ## Defaults
